@@ -1,0 +1,29 @@
+<script>
+    var calculate = prompt("what do you want to perform?: add, multiply, subtract, divide or percentage")
+    var num1 = prompt('enter no.');
+    var num2 = prompt("enter second no.");
+
+    var result;
+    switch (calculate) {
+        case "add":
+            result = parseInt(num1) + parseInt(num2);
+            break;
+
+        case "multiply":
+            result = num1 * num2;
+            break;
+
+        case "subtract":
+            result = parseInt(num1) - parseInt(num2);
+            break;
+
+        case "divide":
+            result = num1 / num2;
+            break;
+
+        default:
+            result = " What do you want to perform? please mention  (add, multiply, subtract or divide)"
+            break;
+
+    }
+</script>
